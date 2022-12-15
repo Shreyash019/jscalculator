@@ -1,0 +1,140 @@
+body{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(243, 208, 161);
+    height: 650px;
+    width:480px;
+    border-radius: 50px 50px 70px 70px;
+    border: 6px solid rgb(182, 181, 181);
+    border-top: 0px;
+    border-left: 0px;
+}
+
+
+.content{
+    width: 400px;
+    height: auto;
+
+}
+
+textarea{
+    background-color: black;
+    height: 75px;
+    width: 380px;
+    margin-top: 5px;
+    margin-left: 9px; 
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border-style: none;
+    border: 4px solid rgb(182, 181, 181);
+    border-top: 0px;
+    border-left: 0px;
+    padding: 45px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    outline: none;
+}
+
+.row{
+    width: 400px;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: rgb(219, 102, 66);
+    color: rgb(245, 245, 245);
+    width:80px;
+    height:70px;
+    border-radius: 10px;
+    border-style:none;
+    border: 3px solid rgb(182, 181, 181);
+    border-top: 0px;
+    border-left: 0px;
+    margin: 6px 6px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+.button:hover{
+    color: rgb(20, 53, 238);
+    background-color: aqua;
+    font-size: 22px;;
+}
+
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .container{
+        height: 600px;
+        width:350px;
+        margin-top: 25%;
+    }
+    
+    .content{
+        align-items: content;
+        width: 300px;
+    }
+    textarea{
+        width: 280px;
+        margin-top: 30px;
+    }
+    
+    .row{
+        width: 300px;
+    }
+    .button{
+        width:55px;
+        height:55px;
+        margin: 6px 6px;
+        font-size: 15px;
+        font-weight: 800;
+    
+    }
+  }
+
+  @media only screen and (max-width:900px) {
+    /* For tablets: */
+    /* .container{
+        height: 800px;
+        width:500px;
+    }
+    
+    .content{
+        align-items: content;
+        width: 400px;
+    }
+    textarea{
+        width: 400px;
+
+        margin-left: 0px;
+    }
+    
+    .row{
+        width: 400px;
+    }
+    .button{
+        width:80px;
+        height:80px;
+        margin: 6px 6px;
+        font-size: 15px;
+        font-weight: 800;
+    } */
+  }

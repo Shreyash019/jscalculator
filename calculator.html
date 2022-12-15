@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="calculator.css">
+  <script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <textarea type="textarea" id="screen" name="lname"></textarea>
+            <div class="row">
+                <button class="button" onclick="myClear()">C</button>
+                <button class="button" onclick="myDel()">del</button>
+                <button class="button" onclick="myEqual()">=</button>
+                <button class="button" onclick="myfunc('%')">%</button>
+            </div>
+            <div class="row">
+                <button class="button" onclick="myfunc('7');">7</button>
+                <button class="button" onclick="myfunc('8');">8</button>
+                <button class="button" onclick="myfunc('9');">9</button>
+                <button class="button" onclick="myfunc('/')">/</button>
+            </div>
+            <div class="row">
+                <button class="button" onclick="myfunc('4');">4</button>
+                <button class="button" onclick="myfunc('5');">5</button>
+                <button class="button" onclick="myfunc('6');">6</button>
+                <button class="button" onclick="myfunc('*')">*</button>
+            </div>
+            <div class="row">
+                <button class="button" onclick="myfunc('1');">1</button>
+                <button class="button" onclick="myfunc('2');">2</button>
+                <button class="button" onclick="myfunc('3');">3</button>
+                <button class="button" onclick="myfunc('-')">-</button>
+            </div>
+            <div class="row">
+                <button class="button" onclick="myfunc('00');">00</button>
+                <button class="button" onclick="myfunc('0');">0</button>
+                <button class="button" onclick="myfunc('.')">.</button>
+                <button class="button" onclick="myfunc('+')">+</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
